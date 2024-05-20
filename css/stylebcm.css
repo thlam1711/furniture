@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;font-size: 18px	
+}
+.banner{
+	width: 100%;min-height: 400px;position: relative
+}
+.caption{
+	width: 400px;text-align: center;position: absolute;left: 5%;top: 20%;
+}
+.caption h1{
+	color: #4F3624;margin-top: -40px;font-size: 30px;text-align: center;position: absolute;right: -70%;top: -10%;border-bottom: 4px solid darkred;
+}
+.caption p{
+	color:darkred;margin-top: 10px
+}
+.text-do{
+	color: darkred;
+}
+.vien{
+	border: 1px solid darkred;border-radius: 8px;padding: 8px;position: relative;overflow: hidden;margin-top: 15px
+}
+.icon{
+	width: 80%;height: 40px;position: absolute;left: 10%;top: -20%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width: 40px;height: 40px;background-color: darkred;border-radius: 50%;color: white;display: flex;justify-content: center;align-items: center;text-decoration: none
+}
+.icon a:hover{
+	background-color: darkgray;
+	color: darkred;
+}
+.vien:hover .icon{
+	top: 40%
+}
+.background{
+	width: 100%;min-height: 400px;position: relative;margin-top: 5%
+}
+.vien-1{
+	border: 3px solid white;padding: 5px;position: relative;overflow: hidden;margin-top: 15px;
+}
+.blog{
+	width: 100%;min-height: 400px;position: relative;margin-top: 5%;position: absolute;right: -50%;
+}
+.blog h1{
+	text-align: left;position: absolute;left :-35%;top: 4%;font-size: 30px
+}
+.blog  p{
+	text-align: left;position: absolute;left :-40%;top: 25%;font-size: 18px
+}
+.blog-2{
+	width: 100%;min-height: 400px;position: relative;margin-top: 5%;position: absolute;
+}
+header{
+	width: 100%;height: 60px;position: absolute;left: 0;top: 0;z-index: 100;border-bottom: 1px solid darkred;background-color: white;
+}
+.logo{
+	padding-top: 15px;
+}
+.menu ul{
+	margin: 0; padding: 0;list-style: none;display: flex;margin-right: 15px
+}
+.menu{
+	padding-top: 20px;text-align: right
+}
+.menu ul li a{
+	padding: 10px 20px;text-decoration: none;color: darkgray
+}
+.menu ul li a:hover{
+	background-color: darkred;color: white
+}
+.tieu-de p b{
+	font-size: 30px;border-bottom: 4px solid darkred;
+}
+#feature{
+width: 100%;min-height: 700px;background-image: url("dethi-furniture/images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center
+}
+.gach-chan {
+	border-bottom: 2px solid darkred
+}
+.pt-30{
+	padding-top: 30px
+}
+.text-do{
+	color: darkred
+}
+.form-control{
+  padding: 5px;
+	margin: 10px 0;
+	width: 90%;
+  align-items: center;
+}
+
+.nut{
+  align-content:start ;
+}
+main{
+  width: 100%;
+  min-height: 500px;
+}
+
+#feature{
+  width: 100%;
+  min-height: 600px;
+  background-image: url("images/bg2.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom ;
+}
+
+.gach-chan{
+  border-bottom: 2px solid darkred;
+}
+
+.pt-30{
+  padding-top: 30px;
+}
+
+.vien-trang{
+  width: 100%;
+  border: 1px solid white;
+  padding: 30px;
+}
+
+#feature a{
+  text-decoration: none;
+  color: darkred;
+  cursor: pointer;
+}
+#feature a:hover{
+  color: white;
+}
+
+
+.form{
+  border: 1px solid grey;
+  border-radius: 3px;
+  box-shadow: 6px 6px 6px 0px rgba(0, 0, 0, 0.45);
+  
+}
+#contact{
+width: 100%;min-height: 600px;background-image: url("images/Shop-Banner2.png");
+background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+.shadow{
+width: 100%;min-height: 300px;border: 1px solid darkgray;
+box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+padding: 8px;width: 100%;margin-bottom: 10px
+}
